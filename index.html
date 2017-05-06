@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Star Wars RPG Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+    	<h1>Stars Wars RPG!</h1>
+    	<div class="row">
+    		<div class="col-md-5">
+    			<div class="player-hit-damage"></div>
+    			<h3>Player Choice</h3>
+        		<div class="player-choice-container">
+        			
+        		</div>
+    		</div>
+    		<div class="col-md-2">
+    			<button id = "attack-button" class="btn btn-lg btn-primary">ATTACK!</button>
+    		</div>
+    		<div class="col-md-5">
+    			<div class="enemy-hit-damage"></div>
+    			<h3>Current Enemy</h3>
+        		<div class="enemy-choice-container">
+        			
+        		</div>
+    		</div>
+    	</div>
+    	
+        <h3>Enemies</h3>
+        <div class="enemy-container"></div>
+    </div>
+
+    <div id = "myModal" class="modal fade" tabindex="-1" role="dialog">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h4 class="modal-title js-win-or-lose"></h4>
+	      </div>
+	      <div class="modal-body">
+			
+	      </div>
+	      <div class="modal-footer">
+	        <button id = "newGame" type="button" class="btn btn-primary btn-lg" data-dismiss="modal">New Game</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"
+  integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="
+  crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+

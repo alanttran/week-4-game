@@ -1,0 +1,64 @@
+body{
+	background-image: url('http://wallpapercave.com/wp/iutdZLr.jpg');
+	color: white;
+}
+h1{
+	text-align: center;
+}
+.character-container{
+	width: 165px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 2px solid gray;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	background: white;
+	color: black;
+}
+
+.character-container:hover{
+	cursor: pointer;
+	border: 2px solid black;
+}
+
+.enemy-choice-container .character-container, .enemy-container .character-container{
+	background: #F1A9A0;
+	border: 2px solid #C0392B;
+}
+
+.character-image{
+	width:100%;
+}
+#attack-button{
+	display: none;
+	margin-top: 157px;
+}
+.player-choice-container{
+	position: relative;
+}
+.player-hit-damage, .enemy-hit-damage{
+	top: 30%;
+	left: 105px;
+	padding: 20px;
+	border-radius: 50%;
+	color: white;
+	background: red;
+	position: absolute;
+	z-index: 3;
+	font-size: 20px;
+	display:none;
+
+}
+.modal{
+	color: black;
+}
+.modal-title{
+	font-size: 37px;
+}
+#newGame{
+	width:100%;
+}
+.col-md-5{
+	positon: relative;
+}
